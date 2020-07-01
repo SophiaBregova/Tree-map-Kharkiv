@@ -1,0 +1,151 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1602,
+        "spesies": "Кінський каштан звичайний",
+        "diametr": 50,
+        "kind": "Гіркокаштан",
+        "Latin": "Aesculus hippocastanum",
+        "state": "добре"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.360368728637695,
+          49.99379048066888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2602,
+        "spesies": "Кінський каштан звичайний",
+        "diametr": 60,
+        "Latin": "Aesculus hippocastanum",
+        "kind": "Гіркокаштан",
+        "state": "добре"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.360377445816994,
+          49.99376504703961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3602,
+        "spesies": "Клен звичайний",
+        "diametr": 40,
+        "ditails": "",
+        "kind": "Клен",
+        "state": "добре",
+        "Latin": "Acer platanoides"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.360404938459396,
+          49.993718059451886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6602,
+        "spesies": "Клен звичайний",
+        "diametr": 45,
+        "ditails": "dry branches",
+        "state": "",
+        "Latin": "Acer platanoides",
+        "kind": "Клен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.360458582639694,
+          49.99354131673829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4602,
+        "spesies": "Клен звичайний",
+        "diametr": 30,
+        "state": "добре",
+        "Latin": "Acer platanoides",
+        "kind": "Клен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36041969060898,
+          49.99366201914961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5602,
+        "spesies": "Клен звичайний",
+        "diametr": 40,
+        "state": "добре",
+        "Latin": "Acer platanoides",
+        "kind": "Клен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.3604411482811,
+          49.99360425446198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7602,
+        "spesies": "Клен звичайний",
+        "diametr": 35,
+        "state": "добре",
+        "Latin": "Acer platanoides",
+        "kind": "Клен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36048272252083,
+          49.99348872487856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8602,
+        "spesies": "Клен звичайний",
+        "diametr": 30,
+        "state": "добре",
+        "Latin": "Acer platanoides",
+        "kind": "Клен"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36050149798393,
+          49.99342320051387
+        ]
+      }
+    }
+  ]
+}
