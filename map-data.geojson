@@ -6,10 +6,10 @@
       "properties": {
         "id": 1602,
         "spesies": "Кінський каштан звичайний",
-        "diametr": 50,
         "kind": "Гіркокаштан",
-        "Latin": "Aesculus hippocastanum",
-        "state": "добре"
+        "state": "добре",
+        "latin": "Aesculus hippocastanum",
+        "diameter": 50
       },
       "geometry": {
         "type": "Point",
@@ -24,10 +24,10 @@
       "properties": {
         "id": 2602,
         "spesies": "Кінський каштан звичайний",
-        "diametr": 60,
-        "Latin": "Aesculus hippocastanum",
         "kind": "Гіркокаштан",
-        "state": "добре"
+        "state": "добре",
+        "latin": "Aesculus hippocastanum",
+        "diameter": 60
       },
       "geometry": {
         "type": "Point",
@@ -42,11 +42,11 @@
       "properties": {
         "id": 3602,
         "spesies": "Клен звичайний",
-        "diametr": 40,
         "ditails": "",
         "kind": "Клен",
         "state": "добре",
-        "Latin": "Acer platanoides"
+        "latin": "Acer platanoides",
+        "diameter": 40
       },
       "geometry": {
         "type": "Point",
@@ -61,11 +61,11 @@
       "properties": {
         "id": 6602,
         "spesies": "Клен звичайний",
-        "diametr": 45,
-        "ditails": "dry branches",
-        "state": "",
-        "Latin": "Acer platanoides",
-        "kind": "Клен"
+        "ditails": "сухе гілля",
+        "state": "проблемне",
+        "kind": "Клен",
+        "latin": "Acer platanoides",
+        "diameter": 45
       },
       "geometry": {
         "type": "Point",
@@ -80,10 +80,10 @@
       "properties": {
         "id": 4602,
         "spesies": "Клен звичайний",
-        "diametr": 30,
         "state": "добре",
-        "Latin": "Acer platanoides",
-        "kind": "Клен"
+        "kind": "Клен",
+        "latin": "Acer platanoides",
+        "diameter": 30
       },
       "geometry": {
         "type": "Point",
@@ -98,10 +98,10 @@
       "properties": {
         "id": 5602,
         "spesies": "Клен звичайний",
-        "diametr": 40,
         "state": "добре",
-        "Latin": "Acer platanoides",
-        "kind": "Клен"
+        "kind": "Клен",
+        "latin": "Acer platanoides",
+        "diameter": 40
       },
       "geometry": {
         "type": "Point",
@@ -116,10 +116,10 @@
       "properties": {
         "id": 7602,
         "spesies": "Клен звичайний",
-        "diametr": 35,
         "state": "добре",
-        "Latin": "Acer platanoides",
-        "kind": "Клен"
+        "kind": "Клен",
+        "latin": "Acer platanoides",
+        "diameter": 35
       },
       "geometry": {
         "type": "Point",
@@ -134,10 +134,10 @@
       "properties": {
         "id": 8602,
         "spesies": "Клен звичайний",
-        "diametr": 30,
         "state": "добре",
-        "Latin": "Acer platanoides",
-        "kind": "Клен"
+        "kind": "Клен",
+        "latin": "Acer platanoides",
+        "diameter": 30
       },
       "geometry": {
         "type": "Point",
