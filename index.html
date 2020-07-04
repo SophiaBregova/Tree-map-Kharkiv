@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tree map</title>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css">
+	<!--<link rel="stylesheet" type="text/css" href="libs/v6.3.1-dist/ol.css">-->
+</head>
+<body>
+	<section class="wrapper">
+		<div class='aside'>
+			<div class="map-title">
+				<h1>Мапа дерев Харкова.</h1>
+				<h2></h2>
+			</div>
+
+			<ul class="table">
+				<li>
+					<div class="key-name"></div><div class="parameter"></div>
+				</li>
+
+					<div class="line" style='visibility: hidden;'></div>
+
+				<li>
+					<div class="key-name"></div><div class="parameter"></div>
+				</li>
+
+					<div class="line" style='visibility: hidden;'></div>
+
+				<li>
+					<div class="key-name"></div><div class="parameter"></div>
+				</li>
+					<div class="line" style='visibility: hidden;'></div>
+				<li>
+					<div class="details" >
+				</li>
+			</ul>
+			<div class="photo"></div>
+		</div>
+		<div id='treeMap' class='map'></div>
+
+			<div class='btn-group'>
+				<button id='btnTrunk' class="btn-switch" title="Відображення діаметру ствола дерев">
+					<svg width="30" height="30">
+ 						 <circle cx="15" cy="15" r="10" stroke="#257027" stroke-width="2"	 fill="rgba(141,230,36,0.5)" />
+					</svg>
+			</button>
+				<button id="btnIcon" class="btn-switch" title="Відображення родів дерев">
+					<img src="icons/chestnut.svg" width="28px">
+				</button>
+			</div>
+
+
+
+	</section>
+	<script type="text/javascript" src="main.js"></script>
+	<!--<script type="text/javascript" src="libs/v6.3.1-dist/ol.js"></script>-->
+</body>
+</html>

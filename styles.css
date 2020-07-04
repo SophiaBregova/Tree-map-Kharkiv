@@ -1,0 +1,118 @@
+*{padding:0;
+	margin:0;
+}
+
+.wrapper{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	box-sizing: border-box;
+	position: relative;
+}
+.aside{
+
+	font-family: 'Arimo', sans-serif;
+	padding: 30px 70px 20px 40px;
+	width: 25%;
+}
+.map-title{
+	margin: 0 0px 20px 30px;
+}
+h1{
+	font-size: 1.9em;
+
+}
+h2{
+	font-size: 1.5em;
+	font-style: italic;
+}
+h1::after{
+	content: '';
+	display: block;
+
+	height: 3px;
+	margin-top:18px;
+	margin-bottom: 10px;
+	background-color: #7ca67b;
+}
+
+.table{
+	margin-top:40px;
+	font-size: 1.3em;
+}
+.aside li{
+	display: flex;
+	list-style-type: none;
+
+}
+
+.key-name{
+	font-weight: bold;
+	width: 70%;
+}
+.parameter{
+	width: 30%;
+}
+.details{
+	margin-top: 10px;
+	margin-left: 40px;
+	font-size:0.9em;
+	font-style: italic;
+	color: #818181;
+}
+.line{
+	content: '';
+	height: 2px;
+	background-color: #c7cec6ff;
+	margin:20px 0;
+}
+
+#treeMap{
+	width: 75%;
+}
+
+/*.btn{
+
+	position: absolute;
+	top:20px;
+	right: 20px;
+	width: 64px;
+	height: 34px;
+	background-color: rgba(225,255,255,0.7);
+	border-radius: 3px;
+	box-sizing: border-box;
+
+}*/
+.btn-group{
+	position: absolute;
+	top:20px;
+	right: 20px;
+	display: flex;
+	margin:2px;
+	border-radius: 3px;
+	border:solid 2px  #a59f9f;
+	box-sizing: border-box;
+}
+.btn-switch{
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	/*padding: 2px 3x;*/
+}
+#btnTrunk{
+	border-right: 1px solid #a59f9f;
+}
+.btn-switch svg,
+.btn-switch img {
+	margin: 2px;
+}
+#btnIcon{
+	border-left: 1px solid #a59f9f;
+}
+.disabled{
+	background-color: #c7cec6;
+}
