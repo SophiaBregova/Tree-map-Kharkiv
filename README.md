@@ -1,2 +1,2 @@
-# Tree-map-Kharkiv.github.io
+# sophiabregova.github.io
 Map of trees in Kharkov
