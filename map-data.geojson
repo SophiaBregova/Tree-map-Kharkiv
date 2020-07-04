@@ -5,11 +5,12 @@
       "type": "Feature",
       "properties": {
         "id": 1602,
-        "spesies": "Кінський каштан звичайний",
-        "kind": "Гіркокаштан",
-        "state": "добре",
+        "kind": "Клен",
+        "species": "Клен звичайний",
         "latin": "Aesculus hippocastanum",
-        "diameter": 50
+        "diameter": 50,
+        "state": "добрий",
+        "details": ""
       },
       "geometry": {
         "type": "Point",
@@ -23,11 +24,12 @@
       "type": "Feature",
       "properties": {
         "id": 2602,
-        "spesies": "Кінський каштан звичайний",
         "kind": "Гіркокаштан",
-        "state": "добре",
-        "latin": "Aesculus hippocastanum",
-        "diameter": 60
+        "species": "Кінський каштан звичайний",
+        "diameter": 40,
+        "details": "",
+        "state": "добрий",
+        "latin": "Aesculus hippocastanum"
       },
       "geometry": {
         "type": "Point",
@@ -41,12 +43,12 @@
       "type": "Feature",
       "properties": {
         "id": 3602,
-        "spesies": "Клен звичайний",
-        "ditails": "",
         "kind": "Клен",
-        "state": "добре",
-        "latin": "Acer platanoides",
-        "diameter": 40
+        "species": "Клен звичайний",
+        "diameter": 44,
+        "details": "",
+        "state": "добрий",
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
@@ -60,12 +62,12 @@
       "type": "Feature",
       "properties": {
         "id": 6602,
-        "spesies": "Клен звичайний",
-        "ditails": "сухе гілля",
-        "state": "проблемне",
         "kind": "Клен",
-        "latin": "Acer platanoides",
-        "diameter": 45
+        "species": "Клен звичайний",
+        "diameter": 35,
+        "details": "Сухе гілля",
+        "state": "проблемне",
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
@@ -79,11 +81,12 @@
       "type": "Feature",
       "properties": {
         "id": 4602,
-        "spesies": "Клен звичайний",
-        "state": "добре",
         "kind": "Клен",
-        "latin": "Acer platanoides",
-        "diameter": 30
+        "species": "Клен звичайний",
+        "details": "",
+        "state": "добрий",
+        "diameter": 40,
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
@@ -97,11 +100,12 @@
       "type": "Feature",
       "properties": {
         "id": 5602,
-        "spesies": "Клен звичайний",
-        "state": "добре",
         "kind": "Клен",
-        "latin": "Acer platanoides",
-        "diameter": 40
+        "species": "Клен звичайний",
+        "details": "",
+        "state": "добрий",
+        "diameter": 25,
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
@@ -115,11 +119,12 @@
       "type": "Feature",
       "properties": {
         "id": 7602,
-        "spesies": "Клен звичайний",
-        "state": "добре",
         "kind": "Клен",
-        "latin": "Acer platanoides",
-        "diameter": 35
+        "species": "Клен звичайний",
+        "details": "",
+        "state": "добрий",
+        "diameter": 30,
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
@@ -133,17 +138,89 @@
       "type": "Feature",
       "properties": {
         "id": 8602,
-        "spesies": "Клен звичайний",
-        "state": "добре",
         "kind": "Клен",
-        "latin": "Acer platanoides",
-        "diameter": 30
+        "species": "Клен звичайний",
+        "details": "",
+        "state": "добрий",
+        "diameter": 35,
+        "latin": "Acer platanoides"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           36.36050149798393,
           49.99342320051387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9602,
+        "kind": "Невизначене",
+        "species": "Невизначене",
+        "details": "Неякісне кронування",
+        "state": "поганий"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36098697781563,
+          49.993929287696574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10602,
+        "kind": "Ясен",
+        "species": "Ясен звичайний",
+        "details": "Заражено омелою",
+        "state": "проблемне",
+        "latin": "Fraxinus excelsior L.",
+        "diameter": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36086896061897,
+          49.99382496692435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11602,
+        "kind": "Липа",
+        "species": "Липа серцелиста",
+        "state": "молоде",
+        "details": "Саджанець",
+        "latin": "Tilia cordata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36077642440795,
+          49.99373271613554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12602,
+        "kind": "Невизначене",
+        "species": "Невизначене",
+        "details": "Засохле",
+        "state": "засохле"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.36065974831581,
+          49.99364218948853
         ]
       }
     }
