@@ -112,7 +112,7 @@ function init(){
 				currentIcon = 'icons/maple.svg';
 				break;
 			case 'Гіркокаштан':
-				currentIcon = 'icons/chestnut.svg';
+				currentIcon = 'chestnut.svg';
 				break;
 			case 'Тополя':
 				currentIcon = 'icons/populus.svg';
