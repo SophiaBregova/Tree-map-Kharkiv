@@ -109,22 +109,22 @@ function init(){
 		let currentIcon;
 		switch(feature.get('kind')){
 			case 'Клен':
-				currentIcon = 'icons/maple.svg';
+				currentIcon = 'maple.svg';
 				break;
 			case 'Гіркокаштан':
 				currentIcon = 'chestnut.svg';
 				break;
 			case 'Тополя':
-				currentIcon = 'icons/populus.svg';
+				currentIcon = 'populus.svg';
 				break;
 			case 'Береза':
-				currentIcon = 'icons/birch.svg';
+				currentIcon = 'birch.svg';
 				break;
 			case 'Липа':
-				currentIcon = 'icons/linden.svg';
+				currentIcon = 'linden.svg';
 				break;
 			case 'Ясен':
-				currentIcon = 'icons/ash.svg';
+				currentIcon = 'ash.svg';
 				break;
 			default:
 				return false;
